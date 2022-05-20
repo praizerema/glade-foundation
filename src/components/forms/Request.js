@@ -108,7 +108,7 @@ export const Request = () => {
             </div>
 
             <button className="bg-[#0E8427] float-right text-white px-5 py-3 rounded-lg hover:bg-white hover:text-[#0E8427] border border-[#0E8427] transition duration-700 ease-in-out">
-              Proceed
+              Request
             </button>
           </form>
         </div>
