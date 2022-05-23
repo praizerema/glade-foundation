@@ -50,7 +50,7 @@ export const Donation = () => {
     <div className="bg-white fixed h-full w-full top-12 left-0 ">
       <div className="grid lg:grid-cols-2 overflow-y-scroll h-full">
         <div className="col-span-1 py-12 px-8 lg:px-20">
-          <h2 className="text-3xl text-[#0E8427] mb-3">Donation</h2>
+          <h2 className="text-3xl text-[#0E8427] mb-3 font-semibold">Donation</h2>
           <form action="" onSubmit={onSubmit}>
             <div className="grid md:grid-cols-2 gap-5">
               <Input
@@ -115,7 +115,7 @@ export const Donation = () => {
             <img src={MakeChange} alt="Covid-19" className="h-full w-auto" />
           </div>
           <div className="h-auto py-16 w-[100%] text-white bg-[#0E8427]">
-            <p className="relative top-1/4 text-3xl md:text-4xl text-bolder text-center">
+            <p className="relative top-1/4 text-3xl md:text-4xl font-bold text-center">
               Join the us in saving the world.
             </p>
           </div>

@@ -20,7 +20,7 @@ function LandingPage() {
       <header className="z-0">
         <div className="relative h-[100vh] header-image">
           <div className=" h-[100%] w-full bg-[rgba(0,0,255,0.25)] relative px-8 md:px-20">
-            <div className="col-span-1 text-3xl md:text-5xl text-bolder w-full sm:w-2/3 md:w-1/2 text-left text-white top-1/2 md:top-1/2 relative leading-relaxed">
+            <div className="col-span-1 text-3xl md:text-5xl font-bold w-full sm:w-2/3 md:w-1/2 text-left text-white top-1/2 md:top-1/2 relative leading-relaxed">
               At Glade Foundation, <br /> Your welfare is our topmost concern.
             </div>
           </div>
@@ -28,11 +28,11 @@ function LandingPage() {
       </header>
       <section id="about">
         <div className="text-center px-8  md:px-20 lg:px-32 py-12">
-          <h2 className="text-3xl text-[#0E8427] text-bolder mb-3">
+          <h2 className="text-3xl text-[#0E8427] font-bold mb-3">
             {" "}
             COVID almost shut down the world
           </h2>
-          <h3 className="text-2xl text-[#0E8427] text-bolder mb-3">
+          <h3 className="text-2xl text-[#0E8427] font-bold mb-3">
             {" "}
             Glade Foundation is saving the world starting with you
           </h3>
@@ -55,7 +55,7 @@ function LandingPage() {
         </div>
         <div className="grid md:grid-cols-2 gap-x-20 gap-y-10 top-1/2 relative px-8 sm:px-0">
           <div className="col-span-1 lg:pl-32 py-10">
-            <p className="text-3xl md:text-5xl text-[700] text-center md:text-left text-[#0E8427]">
+            <p className="text-3xl md:text-5xl font-bold text-center md:text-left text-[#0E8427]">
               {" "}
               We cannot bring the world back alone. We ask you to partner with
               us as we save the world.
@@ -70,7 +70,7 @@ function LandingPage() {
               </button>
             </div>
           </div>
-          <div className="col-span-1 text-3xl md:text-4xl text-bolder text-left text-white">
+          <div className="col-span-1 text-3xl md:text-4xl font-bold text-left text-white">
             <img src={ClosedWorld} alt="" />.
           </div>
         </div>

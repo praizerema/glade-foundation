@@ -39,7 +39,7 @@ export const Request = () => {
     <div className="bg-white fixed h-full w-full top-12 left-0 ">
       <div className="grid lg:grid-cols-2 overflow-y-scroll h-full">
         <div className="col-span-1 py-12 px-8 md:px-20">
-          <h2 className="text-3xl text-[#0E8427] mb-3">
+          <h2 className="text-3xl text-[#0E8427] mb-3 font-semibold">
             Let's get to know you
           </h2>
 
@@ -99,7 +99,7 @@ export const Request = () => {
                   maxLength={350}
                   placeholder="Start Typin..."
                   autoFocus
-                  className=" w-full border border-base-gray-100 outline-none rounded-lg  py-2 text-[0.94rem] bg-transparent"
+                  className=" w-full border border-base-gray-100 outline-none rounded-lg  py-2 text-[0.94rem] bg-transparent px-2"
                 ></textarea>
               </div>
               {errors?.story && (
@@ -117,7 +117,7 @@ export const Request = () => {
             <img src={StaySafe} alt="Covid-19" className="h-full w-auto" />
           </div>
           <div className="h-auto py-16 w-[100%] text-white bg-[#0E8427]">
-            <p className="relative top-1/4 text-3xl md:text-4xl text-bolder text-center">
+            <p className="relative top-1/4 text-3xl md:text-4xl font-bold text-center">
               Help is on the way.
             </p>
           </div>
